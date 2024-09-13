@@ -3,7 +3,6 @@
 
         <form>
             What is your name?<input type ="text" name="name"> </form>
-        </form>
         <p>Links</p>
         <ul>
             <li><a href="#About">About Me</a></li>
