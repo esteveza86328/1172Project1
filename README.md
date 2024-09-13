@@ -67,6 +67,8 @@
         <div id="website">
             <h1>Where I spend my time online</h1>
             <a href=“https://www.youtube.com” target="blank">Youtube Channel</a>
+            <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+
             <p>here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
 
