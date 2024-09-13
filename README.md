@@ -66,7 +66,7 @@
 
         <div id="website">
             <h1>Where I spend my time online</h1>
-            <a href="https://youtube.com/">Where I spend my time</a>
+            <a href="https://youtube.com/" target="_blank">Where I spend my time</a>
 
             <p>here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
