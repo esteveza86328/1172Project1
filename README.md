@@ -1,9 +1,18 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="project1.css">
+        <Style>
+            .welcome{
+                font-size:15px;
+                color:black;
+            }
+            </Style>
+    </head>
     <body>
 
         <form>
             What is your name?<input type ="text" name="name"> </form>
-        <p>Links</p>
+        <p style="color:rgb(6, 196, 38);padding-left:1%;font-size: 30px">Links</p>
         <ul>
             <li><a href="#About">About Me</a></li>
             <li><a href="#Education">Education</a></li>
@@ -66,9 +75,8 @@
 
         <div id="website">
             <h1>Where I spend my time online</h1>
-            <a href="https://youtube.com/" target="_blank">Where I spend my time</a>
-
-            <p>here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
+            <p><a href=“https://www.youtube.com” target="_blank">Youtube Channel</a>
+            here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
 
         <div id="projects">
