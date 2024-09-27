@@ -40,7 +40,7 @@
         <ul>
             <li>Major: Computer Science</li>
             <li>Year: senior</li>
-            <img src="thatsme.jpeg" width="580" height="580">
+            <img src="thatsme.jpeg" width="580" height="580" class="rounded-circle">
         </ul>
         </div>
 
@@ -89,12 +89,11 @@
             here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
 
-        <div class="spinner-border text-muted">
         <div id="projects">
             <ol>
                 <li>Project 1, making a basic website</li>
+                <li><div class="spinner-border text-muted"></div></li>
             </ol>
-        </div>
         </div>
         </div>
     </body>
