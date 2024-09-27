@@ -17,11 +17,12 @@
     <body data-spy="scroll" data-target="#navbar-nav" data-offset="1">
 
         <form class="form-inline fixed-top" action="/action_page.php">What is your name?<input type = "text" class="form-control" placeholder="Your name" name="name"> </form>
-        <p style="color:rgb(6, 196, 38);padding-left:1%;font-size: 30px">Links</p>
        
         <nav class="col-sm-10 col-10" id="navbar-nav">
 
         <div id="links"  class="nav nav-pills flex-column fixed-top">
+                <p style="color:rgb(6, 196, 38);padding-left:1%;font-size: 30px">Links</p>
+
         <ul>
             <li><a href="#About">About Me</a></li>
             <li><a href="#Education">Education</a></li>
