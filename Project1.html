@@ -1,5 +1,11 @@
 <html>
     <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="project1.css">
         <Style>
             .welcome{
@@ -8,11 +14,14 @@
             }
             </Style>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar-nav" data-offset="1">
 
-        <form>
-            What is your name?<input type ="text" name="name"> </form>
+        <form class="form-inline fixed-top" action="/action_page.php">What is your name?<input type = "text" class="form-control" placeholder="Your name" name="name"> </form>
         <p style="color:rgb(6, 196, 38);padding-left:1%;font-size: 30px">Links</p>
+       
+        <nav class="col-sm-10 col-10" id="navbar-nav">
+
+        <div id="links"  class="nav nav-pills flex-column fixed-top">
         <ul>
             <li><a href="#About">About Me</a></li>
             <li><a href="#Education">Education</a></li>
@@ -21,10 +30,11 @@
             <li><a href="#favoritet">What I watch</a></li>
             <li><a href="#website">Online</a></li>
             <li><a href="#projects">Project</a></li>
-
-
         </ul>
+        </div>
+        </nav>
 
+        <div id="main" class="col-sm-9 col-8">
         <div id="About">
         <h1>Avery Estevez</h1>
         <ul>
@@ -58,7 +68,7 @@
 
         <div id="favoritet">
             <h1>My favorite things to watch</h1>
-            <table>
+            <table class="table-hover">
                 <tr>
                     <th>Favorite show</th>
                     <td>The office</td>
@@ -79,10 +89,13 @@
             here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
 
+        <div class="spinner-border text-muted">
         <div id="projects">
             <ol>
                 <li>Project 1, making a basic website</li>
             </ol>
+        </div>
+        </div>
         </div>
     </body>
 </html>
